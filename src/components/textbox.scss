@@ -1,0 +1,12 @@
+@import "../index.scss";
+
+.text_box {
+  border: 10px solid $primaryColor;
+  box-shadow: 20px 10px darkslategrey;
+  padding: 4em 8em;
+  text-transform: uppercase;
+  backdrop-filter: blur(8px);
+    span {
+      color: $accentText;
+    }
+}
